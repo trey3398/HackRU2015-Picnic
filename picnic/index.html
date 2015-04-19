@@ -83,7 +83,27 @@ function callback(results, status) {
   for (var i = 0, result; result = results[i]; i++) {
     createMarker(result);
   }
+      createCenter();
 }
+
+function createCenter() {
+  var marker = new google.maps.Marker({
+    map: map,
+    position: map.getCenter(),
+    icon: {
+      // Star
+      path: 'M 0,-24 6,-7 24,-7 10,4 15,21 0,11 -15,21 -10,4 -24,-7 -6,-7 z',
+      fillColor: '#ffff00',
+      fillOpacity: 1,
+      scale: 1/4,
+      strokeColor: '#bd8d2c',
+      strokeWeight: 1
+    }
+	
+  });
+      infoWindow.setContent("You Are Here");
+      infoWindow.open(map, marker);
+ }
 
 function createMarker(place) {
 	var age1= parseInt(document.getElementById('age').value, 10);
