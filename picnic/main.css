@@ -1,0 +1,156 @@
+.nav a {
+  color: #4e5;
+  font-size: 30px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+a {font-size: 10px;}
+
+.jumbotron {
+  background-image:url('http://www.red-wing.org/media/images/publicworks/Central%20Park%20-%20Bandshell.JPG');
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+  padding:20px;
+  padding-right:20px;
+  background-size: cover;
+  background-color: #4e5
+  
+}
+
+.jumbotron .container .two{
+background-color: #4e4;
+}
+
+.jumbotron .container .three{
+padding:10px;
+}
+
+
+.jumbotron  .container  .col-md-4 .map-canvas{
+height: 70%;
+margin: 0px;
+padding: 0px;
+width: 50%;
+}
+
+.body a{
+color: #4e4;
+  font-size: 10px;
+}
+
+p3{
+color: #f00;
+font-size:15px;
+}
+
+.jumbotron ul{
+list-style-type: none;
+        padding: 0;
+        margin: 0;
+        height: 321px;
+        width: 200px;
+        overflow-y: scroll;
+}
+
+.jumbotron li{
+background-color: #f1f1f1;
+        padding: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+}
+
+.jumbotron li:nth-child(odd) {
+        background-color: #fcfcfc;
+      }
+	  
+.jumbotron .results{
+font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        margin-top: -195px;
+        height: 380px;
+        width: 200px;
+        padding: 5px;
+        z-index: 5;
+        border: 1px solid #999;
+        background: #fff;
+}
+
+.jumbotron h3{
+font-size: 22px;
+        margin: 0 0 5px 0;
+}
+
+.jumbotron h2{
+  color: #6e6;
+  font-size: 48px;
+}
+
+.map{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+}
+
+.jumbotron h1 {
+  color: #075709;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #075709;
+}
+
+.jumbotron p4 {
+  font-size: 20px;
+  padding:20px;
+  color: #075709;
+}
+
+.practice-sections{
+    
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.practice-sections h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+
+ .practice-sections p{
+     font-size: 15px;
+     margin-bottom: 13px;
+ }
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
